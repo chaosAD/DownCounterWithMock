@@ -12,7 +12,7 @@ void test_downCounter_with_count_5_should_recursive_call_with_4(void) {
   
   // Mock recursive call: Expecting the next immediate recursive call to because
   // called with 4
-	_downCounter_Expect(&ms, 4);
+  _downCounter_Expect(&ms, 4);
   
   downCounter(&ms, 5);
 }
@@ -22,7 +22,7 @@ void test_downCounter_with_count_5_should_recursive_call_with_3(void) {
   
   // Mock recursive call: Expecting the next immediate recursive call to because
   // called with 3
-	_downCounter_Expect(&ms, 3);
+  _downCounter_Expect(&ms, 3);
   
   downCounter(&ms, 4);
 }

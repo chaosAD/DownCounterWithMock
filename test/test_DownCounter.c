@@ -10,5 +10,5 @@ void tearDown(void) {}
 void test_downCounter(void) {
   Data ms;
 
-	downCounter(&ms, 5);
+  downCounter(&ms, 5);
 }
